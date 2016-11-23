@@ -197,6 +197,10 @@ section.success a.active {
     }
 }
 
+.modal {
+    position: fixed;
+}
+
 .btn-outline {
     margin-top: 15px;
     border: solid 2px #fff;
