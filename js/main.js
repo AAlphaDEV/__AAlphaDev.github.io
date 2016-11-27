@@ -52,7 +52,8 @@ $(function() {
 
     //Modals
     $('.to-ppage1').data('ppage', '#ppage1');
-    $('#ppage1').hide();
+    $('.to-ppage2').data('ppage', '#ppage2');
+    $('.ppage').hide();
 
     $('.ppage-link').on('click', function(event) {
         current_ppage = $(this).data('ppage');
