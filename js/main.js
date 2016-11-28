@@ -58,13 +58,13 @@ $(function() {
     $('.ppage-link').on('click', function(event) {
         current_ppage = $(this).data('ppage');
 
-        $(current_ppage).fadeToggle(300);
+        $(current_ppage).fadeToggle(200);
         disableScroll();
 
         return false;
     });
     $('.close-ppage').on('click', function(event) {
-        $(current_ppage).fadeToggle(300);
+        $(current_ppage).fadeToggle(200);
         enableScroll();
 
         return false;
