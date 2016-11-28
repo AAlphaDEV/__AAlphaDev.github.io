@@ -213,6 +213,10 @@ section.success a.active {
     overflow-y: hidden;
 }
 
+.ppage .ppga-content {
+    
+}
+
 .ppage .close-ppage {
     position: absolute;
     right: 25px;
