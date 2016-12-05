@@ -66,7 +66,7 @@ hr.star-primary {
 
 hr.star-primary:after {
     color: #2c3e50;
-    background-color: #fff;
+    background-color: #4C5E70;
 }
 
 .img-centered {
@@ -189,7 +189,7 @@ section h2 {
 
 section.success {
     color: #fff;
-    background: #18bc9c;
+    background: #4C5E70;
 }
 
 section.success a,
