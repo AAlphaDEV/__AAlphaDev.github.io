@@ -155,7 +155,7 @@ header .intro-text .subtitle {
     }
 }
 
-@media(max-width:600px) {
+@media(max-width:700px) {
     header .intro-text {
         background-color: rgba(150, 150, 150, 0.4);
         margin-top: 0%;
