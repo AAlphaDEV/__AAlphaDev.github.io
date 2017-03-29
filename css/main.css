@@ -155,6 +155,13 @@ header .intro-text .subtitle {
     }
 }
 
+@media(max-width:600px) {
+    header .intro-text {
+        background-color: rgba(150, 150, 150, 0.4);
+        margin-top: 0%;
+    }
+}
+
 .navbar {
     text-transform: uppercase;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
