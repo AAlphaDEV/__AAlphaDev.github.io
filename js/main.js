@@ -70,3 +70,13 @@ $(function() {
         return false;
     });
 });
+
+// Highlight the top nav as scrolling occurs
+$('body').scrollspy({
+    target: '.navbar-fixed-top'
+})
+
+//Closes the Responsive menu on item click (little screen)
+$('.navbar-collapse ul li a').click(function() {
+    $('.navbar-toggle:visible').click();
+});
