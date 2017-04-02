@@ -52,7 +52,10 @@ $(function() {
 
     //PPages
     $('.to-ppage1').data('ppage', '#ppage1');
-    //$('.to-ppage2').data('ppage', '#ppage2');
+    $('.to-ppage2').data('ppage', '#ppage2');
+    $('.to-ppage3').data('ppage', '#ppage3');
+    $('.to-ppage4').data('ppage', '#ppage4');
+    $('.to-ppage5').data('ppage', '#ppage5');
     $('.ppage').hide();
 
     $('.ppage-link').on('click', function(event) {
