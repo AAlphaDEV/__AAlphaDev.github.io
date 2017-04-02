@@ -72,6 +72,18 @@ $(function() {
 
         return false;
     });
+    
+    $('section:not(.success)').hover(function() {
+        $(this).css('background', '#D7D7D7');
+    }, function() {
+        $(this).css('background', '#ffffff');
+    });
+    
+    $('.success').hover(function() {
+        $(this).css('background', '#748698');
+    }, function() {
+        $(this).css('background', '#4C5E70');
+    });
 });
 
 // Highlight the top nav as scrolling occurs
