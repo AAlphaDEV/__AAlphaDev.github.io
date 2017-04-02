@@ -273,6 +273,8 @@ section.success a.active {
 
 .ppage-body img {
     border: 1px solid gray;
+    height: 28%;
+    width: 25%;
 }
 
 .btn-outline {
